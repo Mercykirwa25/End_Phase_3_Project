@@ -64,26 +64,25 @@ XGBoost outperformed all other models by balancing false alarms and missed churn
 - `customer_service_calls`.
 These highlight the main drivers of churn and areas where intervention can be most effective.
 
-## 📝 Final Recommendation
-1. The tuned **XGBoost** model provides strong predictive power(96% accuracy, 82% recall for churners), making it a reliable tool for ***proactively identifying at-risk customers**.
+## 📝 Final Recommendation1. The tuned **XGBoost** model provides strong predictive power(96% accuracy, 82% recall for churners), making it a reliable tool for **proactively identifying at-risk customers**.
 2. Predictions are most useful when applied to **customer segments with high service calls, international plans, and heavy daytime usage**. However, since precision is lower than recall, the model may generate false alarms. In contexts where retention resources are very costly, predictions should be combined with business rules before action.
 3. **Features-driven actions**
- - **Target High-Risk Customers**
-   -Focus campaigns on customers with international plans, high usage, and frequent service calls.
-   - Offer personalized incentives such as discounts, loyalty rewards, or tailored plan adjustments.
- - **Enhance Customer Service Experience**
-   - Resolve issues quickly for customers making multiple service calls.
-   - Train support teams to proactively address issues and complaints to   improve customer satisfaction.
+- **Target High-Risk Customers**
+    - Focus campaigns on customers with international plans, high usage, and frequent service calls.
+    - Offer personalized incentives such as discounts, loyalty rewards, or tailored plan adjustments.
+- **Enhance Customer Service Experience**
+    - Resolve issues quickly for customers making multiple service calls.
+    - Train support teams to proactively address issues and complaints to improve customer satisfaction.
 - **Review Plans and Pricing**
-  - Re-evaluate international calling plans and high-usage tariffs for competitiveness.
-  - Offer bundled services and offer long-term contract options to increase customer stickiness.
+    - Re-evaluate international calling plans and high-usage tariffs for competitiveness.
+    - Offer bundled services and offer long-term contract options to increase customer stickiness.
 - **Monitor High-Usage and At-Risk Segments**
-  - Train usage patterns to flag potential dissatisfaction early.
-  - Use predictive modeling to intervene before customers churn.
-- ** Engage At-Risk Customers with Feedback loops**
-  - For customers flagged as high risk by the model, send short, targeted surveys(e.g, about service quality, pricing, or support experience).
-  - This provides real-time insights into customer dissatisfaction and shows customers that their feedback matters, which can improve loyalty.
-  - Combine survey responses with predictive insights to refine retention offers(discounts, loyalty rewards, or tailored plans
+    - Train usage patterns to flag potential dissatisfaction early.
+    - Use predictive modeling to intervene before customers churn.
+- **Engage At-Risk Customers with Feedback loops**
+    - For customers flagged as high risk by the model, send short, targeted surveys(e.g, about service quality, pricing, or support experience).
+    - This provides real-time insights into customer dissatisfaction and shows customers that their feedback matters, which can improve loyalty.
+    - Combine survey responses with predictive insights to refine retention offers(discounts, loyalty rewards, or tailored plans
 4. **Continuous Model Improvement**
 - Regularly retrain the XGBoost model as customer behavior evolves.
 - Use predictive insights to guide marketing, product, and service strategies.
