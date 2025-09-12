@@ -64,7 +64,8 @@ XGBoost outperformed all other models by balancing false alarms and missed churn
 - `customer_service_calls`.
 These highlight the main drivers of churn and areas where intervention can be most effective.
 
-## 📝 Final Recommendation1. The tuned **XGBoost** model provides strong predictive power(96% accuracy, 82% recall for churners), making it a reliable tool for **proactively identifying at-risk customers**.
+## 📝 Final Recommendation
+1. The tuned **XGBoost** model provides strong predictive power(96% accuracy, 82% recall for churners), making it a reliable tool for **proactively identifying at-risk customers**.
 2. Predictions are most useful when applied to **customer segments with high service calls, international plans, and heavy daytime usage**. However, since precision is lower than recall, the model may generate false alarms. In contexts where retention resources are very costly, predictions should be combined with business rules before action.
 3. **Features-driven actions**
 - **Target High-Risk Customers**
