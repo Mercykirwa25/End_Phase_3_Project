@@ -121,4 +121,4 @@ data = pd.read_csv("bigml_59c28831336c6604c800002a.csv")
 
 ## 🫱🏽‍🫲🏽 Acknowledgements
 Special thanks to the dataset contributors:
-* [SyriaTel Customer Churn` dataset from Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
+[SyriaTel Customer Churn` dataset from Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
